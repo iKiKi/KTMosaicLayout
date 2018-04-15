@@ -1,0 +1,1027 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27800D17208BE716005CB6CC /* MosaicFooterReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27800D16208BE716005CB6CC /* MosaicFooterReusableView.swift */; };
+		27800D18208BE71B005CB6CC /* MosaicFooterReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27800D16208BE716005CB6CC /* MosaicFooterReusableView.swift */; };
+		27800D1A208BE74C005CB6CC /* MosaicFooterReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27800D19208BE74C005CB6CC /* MosaicFooterReusableView.xib */; };
+		27800D21208C010E005CB6CC /* MosaicFooterReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27800D20208C010D005CB6CC /* MosaicFooterReusableView.xib */; };
+		2787F31D208370F200D41EE2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2787F316208370F200D41EE2 /* Localizable.strings */; };
+		2787F31E208370F200D41EE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2787F318208370F200D41EE2 /* InfoPlist.strings */; };
+		2787F31F208370F200D41EE2 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 2787F31A208370F200D41EE2 /* Localizable.stringsdict */; };
+		2787F3222083715300D41EE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2787F318208370F200D41EE2 /* InfoPlist.strings */; };
+		2787F3232083715300D41EE2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2787F316208370F200D41EE2 /* Localizable.strings */; };
+		2787F3242083715300D41EE2 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 2787F31A208370F200D41EE2 /* Localizable.stringsdict */; };
+		2787F3302083723400D41EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2787F32C2083723300D41EE2 /* LaunchScreen.storyboard */; };
+		2787F3312083723400D41EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2787F32D2083723300D41EE2 /* Assets.xcassets */; };
+		2787F337208372F200D41EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2787F334208372F200D41EE2 /* Assets.xcassets */; };
+		2787F33C208374D900D41EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F33B208374D900D41EE2 /* AppDelegate.swift */; };
+		2787F33D208374D900D41EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F33B208374D900D41EE2 /* AppDelegate.swift */; };
+		2787F343208375B400D41EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F340208375B300D41EE2 /* ViewController.swift */; };
+		2787F344208375B400D41EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F340208375B300D41EE2 /* ViewController.swift */; };
+		2787F345208375B400D41EE2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F342208375B400D41EE2 /* MainViewController.swift */; };
+		2787F346208375B400D41EE2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F342208375B400D41EE2 /* MainViewController.swift */; };
+		2787F34A2083760900D41EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2787F3492083760900D41EE2 /* Main.storyboard */; };
+		2787F3522083772100D41EE2 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F34F2083772100D41EE2 /* Assets.swift */; };
+		2787F3532083772100D41EE2 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F34F2083772100D41EE2 /* Assets.swift */; };
+		2787F3542083772100D41EE2 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F3502083772100D41EE2 /* Storyboards.swift */; };
+		2787F3552083772100D41EE2 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F3502083772100D41EE2 /* Storyboards.swift */; };
+		2787F3562083772100D41EE2 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F3512083772100D41EE2 /* Strings.swift */; };
+		2787F3572083772100D41EE2 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F3512083772100D41EE2 /* Strings.swift */; };
+		2787F359208377A900D41EE2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F358208377A900D41EE2 /* Colors.swift */; };
+		2787F35A208377A900D41EE2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F358208377A900D41EE2 /* Colors.swift */; };
+		2787F36F208379C600D41EE2 /* MosaicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F36D208379C600D41EE2 /* MosaicCollectionViewCell.swift */; };
+		2787F370208379C600D41EE2 /* MosaicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F36D208379C600D41EE2 /* MosaicCollectionViewCell.swift */; };
+		2787F371208379C600D41EE2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F36E208379C600D41EE2 /* CollectionViewCell.swift */; };
+		2787F372208379C600D41EE2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F36E208379C600D41EE2 /* CollectionViewCell.swift */; };
+		2787F376208379CD00D41EE2 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F373208379CD00D41EE2 /* CollectionReusableView.swift */; };
+		2787F377208379CD00D41EE2 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F373208379CD00D41EE2 /* CollectionReusableView.swift */; };
+		2787F378208379CD00D41EE2 /* MosaicHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F375208379CD00D41EE2 /* MosaicHeaderReusableView.swift */; };
+		2787F379208379CD00D41EE2 /* MosaicHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787F375208379CD00D41EE2 /* MosaicHeaderReusableView.swift */; };
+		2787F37E20837D0400D41EE2 /* MosaicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2787F37D20837D0400D41EE2 /* MosaicCollectionViewCell.xib */; };
+		2787F38120837D0B00D41EE2 /* MosaicHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2787F38020837D0B00D41EE2 /* MosaicHeaderReusableView.xib */; };
+		2787F38A2083FDC700D41EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2787F3892083FDC700D41EE2 /* Main.storyboard */; };
+		2787F38E2083FEED00D41EE2 /* MosaicCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2787F38C2083FEED00D41EE2 /* MosaicCollectionViewCell.xib */; };
+		2787F3922084006E00D41EE2 /* MosaicHeaderReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2787F3902084006E00D41EE2 /* MosaicHeaderReusableView.xib */; };
+		51DC9A797CB9DEB79452413D /* Pods_KTMosaicLayout_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF87B04E6C71FC2927BDE703 /* Pods_KTMosaicLayout_tvOS.framework */; };
+		5A782CFD9CB8E2D40A436B21 /* Pods_KTMosaicLayout_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4079C5525EBD7DF09CBCBD2 /* Pods_KTMosaicLayout_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F319462DA6C4EB718BFA6EE /* Pods-KTMosaicLayout iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTMosaicLayout iOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-KTMosaicLayout iOS/Pods-KTMosaicLayout iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		27800D16208BE716005CB6CC /* MosaicFooterReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosaicFooterReusableView.swift; sourceTree = "<group>"; };
+		27800D19208BE74C005CB6CC /* MosaicFooterReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MosaicFooterReusableView.xib; sourceTree = "<group>"; };
+		27800D20208C010D005CB6CC /* MosaicFooterReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MosaicFooterReusableView.xib; sourceTree = "<group>"; };
+		2787F2EF2083709E00D41EE2 /* KTMosaicLayout iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KTMosaicLayout iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2787F305208370B900D41EE2 /* KTMosaicLayout tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KTMosaicLayout tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2787F317208370F200D41EE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2787F319208370F200D41EE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2787F31B208370F200D41EE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		2787F31C208370F200D41EE2 /* colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
+		2787F32C2083723300D41EE2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2787F32D2083723300D41EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2787F32E2083723300D41EE2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2787F334208372F200D41EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2787F335208372F200D41EE2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2787F33B208374D900D41EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2787F33E2083751200D41EE2 /* KTMosaicLayout iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KTMosaicLayout iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		2787F33F2083751B00D41EE2 /* KTMosaicLayout tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KTMosaicLayout tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		2787F340208375B300D41EE2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2787F342208375B400D41EE2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2787F3492083760900D41EE2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2787F34F2083772100D41EE2 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		2787F3502083772100D41EE2 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		2787F3512083772100D41EE2 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		2787F358208377A900D41EE2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2787F36D208379C600D41EE2 /* MosaicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosaicCollectionViewCell.swift; sourceTree = "<group>"; };
+		2787F36E208379C600D41EE2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		2787F373208379CD00D41EE2 /* CollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		2787F375208379CD00D41EE2 /* MosaicHeaderReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosaicHeaderReusableView.swift; sourceTree = "<group>"; };
+		2787F37D20837D0400D41EE2 /* MosaicCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MosaicCollectionViewCell.xib; sourceTree = "<group>"; };
+		2787F38020837D0B00D41EE2 /* MosaicHeaderReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MosaicHeaderReusableView.xib; sourceTree = "<group>"; };
+		2787F3892083FDC700D41EE2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2787F38C2083FEED00D41EE2 /* MosaicCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MosaicCollectionViewCell.xib; sourceTree = "<group>"; };
+		2787F3902084006E00D41EE2 /* MosaicHeaderReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MosaicHeaderReusableView.xib; sourceTree = "<group>"; };
+		293FD9E02FAA6678702C37C2 /* Pods-KTMosaicLayout tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTMosaicLayout tvOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-KTMosaicLayout tvOS/Pods-KTMosaicLayout tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		92B6005E317AD9F8C0E953D2 /* Pods-KTMosaicLayout tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTMosaicLayout tvOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-KTMosaicLayout tvOS/Pods-KTMosaicLayout tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B4079C5525EBD7DF09CBCBD2 /* Pods_KTMosaicLayout_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTMosaicLayout_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF87B04E6C71FC2927BDE703 /* Pods_KTMosaicLayout_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTMosaicLayout_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E69724C10C5CF6699009089F /* Pods-KTMosaicLayout iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTMosaicLayout iOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-KTMosaicLayout iOS/Pods-KTMosaicLayout iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2787F2EC2083709E00D41EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A782CFD9CB8E2D40A436B21 /* Pods_KTMosaicLayout_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2787F302208370B900D41EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DC9A797CB9DEB79452413D /* Pods_KTMosaicLayout_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E2BBA8A63935BC75BE864C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F319462DA6C4EB718BFA6EE /* Pods-KTMosaicLayout iOS.debug.xcconfig */,
+				E69724C10C5CF6699009089F /* Pods-KTMosaicLayout iOS.release.xcconfig */,
+				92B6005E317AD9F8C0E953D2 /* Pods-KTMosaicLayout tvOS.debug.xcconfig */,
+				293FD9E02FAA6678702C37C2 /* Pods-KTMosaicLayout tvOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2787F2CD20836FB100D41EE2 = {
+			isa = PBXGroup;
+			children = (
+				2787F2D820836FB100D41EE2 /* KTMosaicLayout */,
+				2787F2F02083709E00D41EE2 /* KTMosaicLayout iOS */,
+				2787F306208370B900D41EE2 /* KTMosaicLayout tvOS */,
+				2787F2D720836FB100D41EE2 /* Products */,
+				13E2BBA8A63935BC75BE864C /* Pods */,
+				34EB4991B9D8A3D725CE2592 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2787F2D720836FB100D41EE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2787F2EF2083709E00D41EE2 /* KTMosaicLayout iOS.app */,
+				2787F305208370B900D41EE2 /* KTMosaicLayout tvOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2787F2D820836FB100D41EE2 /* KTMosaicLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2787F314208370F200D41EE2 /* Code */,
+				2787F315208370F200D41EE2 /* Resources */,
+				2787F3212083710100D41EE2 /* Scripts */,
+			);
+			path = KTMosaicLayout;
+			sourceTree = "<group>";
+		};
+		2787F2F02083709E00D41EE2 /* KTMosaicLayout iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2787F32F2083723300D41EE2 /* Code */,
+				2787F32B2083723300D41EE2 /* Resources */,
+			);
+			path = "KTMosaicLayout iOS";
+			sourceTree = "<group>";
+		};
+		2787F306208370B900D41EE2 /* KTMosaicLayout tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				2787F336208372F200D41EE2 /* Code */,
+				2787F333208372F200D41EE2 /* Resources */,
+			);
+			path = "KTMosaicLayout tvOS";
+			sourceTree = "<group>";
+		};
+		2787F314208370F200D41EE2 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				2787F32A208371DE00D41EE2 /* AppDelegate */,
+				2787F326208371DD00D41EE2 /* Constants */,
+				2787F328208371DD00D41EE2 /* ViewModels */,
+				2787F329208371DD00D41EE2 /* Views */,
+				2787F325208371DD00D41EE2 /* ViewControllers */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		2787F315208370F200D41EE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2787F31C208370F200D41EE2 /* colors.txt */,
+				2787F318208370F200D41EE2 /* InfoPlist.strings */,
+				2787F316208370F200D41EE2 /* Localizable.strings */,
+				2787F31A208370F200D41EE2 /* Localizable.stringsdict */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2787F3212083710100D41EE2 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		2787F325208371DD00D41EE2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2787F340208375B300D41EE2 /* ViewController.swift */,
+				2787F341208375B400D41EE2 /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2787F326208371DD00D41EE2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2787F327208371DD00D41EE2 /* SwiftGen */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2787F327208371DD00D41EE2 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				2787F34F2083772100D41EE2 /* Assets.swift */,
+				2787F358208377A900D41EE2 /* Colors.swift */,
+				2787F3502083772100D41EE2 /* Storyboards.swift */,
+				2787F3512083772100D41EE2 /* Strings.swift */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		2787F328208371DD00D41EE2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2787F329208371DD00D41EE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2787F3672083791900D41EE2 /* Cells */,
+				2787F3682083791900D41EE2 /* ReusableViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2787F32A208371DE00D41EE2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2787F33B208374D900D41EE2 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2787F32B2083723300D41EE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2787F33E2083751200D41EE2 /* KTMosaicLayout iOS-Bridging-Header.h */,
+				2787F32E2083723300D41EE2 /* Info.plist */,
+				2787F32D2083723300D41EE2 /* Assets.xcassets */,
+				2787F32C2083723300D41EE2 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2787F32F2083723300D41EE2 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				2787F3692083792400D41EE2 /* Views */,
+				2787F3472083760900D41EE2 /* ViewControllers */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		2787F333208372F200D41EE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2787F33F2083751B00D41EE2 /* KTMosaicLayout tvOS-Bridging-Header.h */,
+				2787F335208372F200D41EE2 /* Info.plist */,
+				2787F334208372F200D41EE2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2787F336208372F200D41EE2 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				2787F3842083FDA300D41EE2 /* Views */,
+				2787F3822083FDA300D41EE2 /* ViewControllers */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		2787F341208375B400D41EE2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2787F342208375B400D41EE2 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2787F3472083760900D41EE2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2787F3482083760900D41EE2 /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2787F3482083760900D41EE2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2787F3492083760900D41EE2 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2787F3672083791900D41EE2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2787F36E208379C600D41EE2 /* CollectionViewCell.swift */,
+				2787F36C208379C600D41EE2 /* Mosaic */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2787F3682083791900D41EE2 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				2787F373208379CD00D41EE2 /* CollectionReusableView.swift */,
+				2787F374208379CD00D41EE2 /* Mosaic */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		2787F3692083792400D41EE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2787F36A2083792400D41EE2 /* Cells */,
+				2787F36B2083792400D41EE2 /* ReusableViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2787F36A2083792400D41EE2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2787F37C20837D0400D41EE2 /* Mosaic */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2787F36B2083792400D41EE2 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				2787F37F20837D0B00D41EE2 /* Mosaic */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		2787F36C208379C600D41EE2 /* Mosaic */ = {
+			isa = PBXGroup;
+			children = (
+				2787F36D208379C600D41EE2 /* MosaicCollectionViewCell.swift */,
+			);
+			path = Mosaic;
+			sourceTree = "<group>";
+		};
+		2787F374208379CD00D41EE2 /* Mosaic */ = {
+			isa = PBXGroup;
+			children = (
+				2787F375208379CD00D41EE2 /* MosaicHeaderReusableView.swift */,
+				27800D16208BE716005CB6CC /* MosaicFooterReusableView.swift */,
+			);
+			path = Mosaic;
+			sourceTree = "<group>";
+		};
+		2787F37C20837D0400D41EE2 /* Mosaic */ = {
+			isa = PBXGroup;
+			children = (
+				2787F37D20837D0400D41EE2 /* MosaicCollectionViewCell.xib */,
+			);
+			path = Mosaic;
+			sourceTree = "<group>";
+		};
+		2787F37F20837D0B00D41EE2 /* Mosaic */ = {
+			isa = PBXGroup;
+			children = (
+				2787F38020837D0B00D41EE2 /* MosaicHeaderReusableView.xib */,
+				27800D19208BE74C005CB6CC /* MosaicFooterReusableView.xib */,
+			);
+			path = Mosaic;
+			sourceTree = "<group>";
+		};
+		2787F3822083FDA300D41EE2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2787F3832083FDA300D41EE2 /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2787F3832083FDA300D41EE2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2787F3892083FDC700D41EE2 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2787F3842083FDA300D41EE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2787F3852083FDA300D41EE2 /* Cells */,
+				2787F3872083FDA300D41EE2 /* ReusableViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2787F3852083FDA300D41EE2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2787F3862083FDA300D41EE2 /* Mosaic */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2787F3862083FDA300D41EE2 /* Mosaic */ = {
+			isa = PBXGroup;
+			children = (
+				2787F38C2083FEED00D41EE2 /* MosaicCollectionViewCell.xib */,
+			);
+			path = Mosaic;
+			sourceTree = "<group>";
+		};
+		2787F3872083FDA300D41EE2 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				2787F3882083FDA300D41EE2 /* Mosaic */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		2787F3882083FDA300D41EE2 /* Mosaic */ = {
+			isa = PBXGroup;
+			children = (
+				2787F3902084006E00D41EE2 /* MosaicHeaderReusableView.xib */,
+				27800D20208C010D005CB6CC /* MosaicFooterReusableView.xib */,
+			);
+			path = Mosaic;
+			sourceTree = "<group>";
+		};
+		34EB4991B9D8A3D725CE2592 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4079C5525EBD7DF09CBCBD2 /* Pods_KTMosaicLayout_iOS.framework */,
+				DF87B04E6C71FC2927BDE703 /* Pods_KTMosaicLayout_tvOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2787F2EE2083709E00D41EE2 /* KTMosaicLayout iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2787F2FE2083709F00D41EE2 /* Build configuration list for PBXNativeTarget "KTMosaicLayout iOS" */;
+			buildPhases = (
+				710F62C9820F122D32E7FD0C /* [CP] Check Pods Manifest.lock */,
+				2787F34B2083764000D41EE2 /* 🔧 SwiftGen */,
+				2787F34C2083769C00D41EE2 /* ⚠️ SwiftLint */,
+				2787F2EB2083709E00D41EE2 /* Sources */,
+				2787F2EC2083709E00D41EE2 /* Frameworks */,
+				2787F2ED2083709E00D41EE2 /* Resources */,
+				B7D86AEE4C3D713C9EA74FAB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KTMosaicLayout iOS";
+			productName = "KTMosaicLayout iOS";
+			productReference = 2787F2EF2083709E00D41EE2 /* KTMosaicLayout iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2787F304208370B900D41EE2 /* KTMosaicLayout tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2787F311208370BA00D41EE2 /* Build configuration list for PBXNativeTarget "KTMosaicLayout tvOS" */;
+			buildPhases = (
+				968AA1F49A86FBF0119F7105 /* [CP] Check Pods Manifest.lock */,
+				2787F34D208376CC00D41EE2 /* 🔧 SwiftGen */,
+				2787F34E208376DD00D41EE2 /* ⚠️ SwiftLint */,
+				2787F301208370B900D41EE2 /* Sources */,
+				2787F302208370B900D41EE2 /* Frameworks */,
+				2787F303208370B900D41EE2 /* Resources */,
+				409B69ADCAC9965833900E8F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KTMosaicLayout tvOS";
+			productName = "KTMosaicLayout tvOS";
+			productReference = 2787F305208370B900D41EE2 /* KTMosaicLayout tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2787F2CE20836FB100D41EE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = iKiKi;
+				TargetAttributes = {
+					2787F2EE2083709E00D41EE2 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					2787F304208370B900D41EE2 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 2787F2D120836FB100D41EE2 /* Build configuration list for PBXProject "KTMosaicLayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2787F2CD20836FB100D41EE2;
+			productRefGroup = 2787F2D720836FB100D41EE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2787F2EE2083709E00D41EE2 /* KTMosaicLayout iOS */,
+				2787F304208370B900D41EE2 /* KTMosaicLayout tvOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2787F2ED2083709E00D41EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2787F38120837D0B00D41EE2 /* MosaicHeaderReusableView.xib in Resources */,
+				2787F31D208370F200D41EE2 /* Localizable.strings in Resources */,
+				2787F3302083723400D41EE2 /* LaunchScreen.storyboard in Resources */,
+				2787F31E208370F200D41EE2 /* InfoPlist.strings in Resources */,
+				2787F37E20837D0400D41EE2 /* MosaicCollectionViewCell.xib in Resources */,
+				2787F34A2083760900D41EE2 /* Main.storyboard in Resources */,
+				2787F3312083723400D41EE2 /* Assets.xcassets in Resources */,
+				27800D1A208BE74C005CB6CC /* MosaicFooterReusableView.xib in Resources */,
+				2787F31F208370F200D41EE2 /* Localizable.stringsdict in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2787F303208370B900D41EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2787F3232083715300D41EE2 /* Localizable.strings in Resources */,
+				2787F38A2083FDC700D41EE2 /* Main.storyboard in Resources */,
+				2787F3922084006E00D41EE2 /* MosaicHeaderReusableView.xib in Resources */,
+				2787F38E2083FEED00D41EE2 /* MosaicCollectionViewCell.xib in Resources */,
+				2787F3222083715300D41EE2 /* InfoPlist.strings in Resources */,
+				2787F3242083715300D41EE2 /* Localizable.stringsdict in Resources */,
+				27800D21208C010E005CB6CC /* MosaicFooterReusableView.xib in Resources */,
+				2787F337208372F200D41EE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2787F34B2083764000D41EE2 /* 🔧 SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "🔧 SwiftGen";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/KTMosaicLayout/Scripts/swiftgen\"";
+		};
+		2787F34C2083769C00D41EE2 /* ⚠️ SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "⚠️ SwiftLint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/KTMosaicLayout/Scripts/swiftlint\"";
+		};
+		2787F34D208376CC00D41EE2 /* 🔧 SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "🔧 SwiftGen";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/KTMosaicLayout/Scripts/swiftgen\"";
+		};
+		2787F34E208376DD00D41EE2 /* ⚠️ SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "⚠️ SwiftLint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/KTMosaicLayout/Scripts/swiftlint\"";
+		};
+		409B69ADCAC9965833900E8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-KTMosaicLayout tvOS/Pods-KTMosaicLayout tvOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Reusable-tvOS/Reusable.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-KTMosaicLayout tvOS/Pods-KTMosaicLayout tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		710F62C9820F122D32E7FD0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTMosaicLayout iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		968AA1F49A86FBF0119F7105 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KTMosaicLayout tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D86AEE4C3D713C9EA74FAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-KTMosaicLayout iOS/Pods-KTMosaicLayout iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Reusable-iOS/Reusable.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-KTMosaicLayout iOS/Pods-KTMosaicLayout iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2787F2EB2083709E00D41EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2787F3522083772100D41EE2 /* Assets.swift in Sources */,
+				2787F359208377A900D41EE2 /* Colors.swift in Sources */,
+				27800D17208BE716005CB6CC /* MosaicFooterReusableView.swift in Sources */,
+				2787F371208379C600D41EE2 /* CollectionViewCell.swift in Sources */,
+				2787F376208379CD00D41EE2 /* CollectionReusableView.swift in Sources */,
+				2787F3542083772100D41EE2 /* Storyboards.swift in Sources */,
+				2787F3562083772100D41EE2 /* Strings.swift in Sources */,
+				2787F36F208379C600D41EE2 /* MosaicCollectionViewCell.swift in Sources */,
+				2787F33C208374D900D41EE2 /* AppDelegate.swift in Sources */,
+				2787F378208379CD00D41EE2 /* MosaicHeaderReusableView.swift in Sources */,
+				2787F343208375B400D41EE2 /* ViewController.swift in Sources */,
+				2787F345208375B400D41EE2 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2787F301208370B900D41EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2787F346208375B400D41EE2 /* MainViewController.swift in Sources */,
+				2787F3552083772100D41EE2 /* Storyboards.swift in Sources */,
+				27800D18208BE71B005CB6CC /* MosaicFooterReusableView.swift in Sources */,
+				2787F372208379C600D41EE2 /* CollectionViewCell.swift in Sources */,
+				2787F377208379CD00D41EE2 /* CollectionReusableView.swift in Sources */,
+				2787F344208375B400D41EE2 /* ViewController.swift in Sources */,
+				2787F35A208377A900D41EE2 /* Colors.swift in Sources */,
+				2787F370208379C600D41EE2 /* MosaicCollectionViewCell.swift in Sources */,
+				2787F3532083772100D41EE2 /* Assets.swift in Sources */,
+				2787F379208379CD00D41EE2 /* MosaicHeaderReusableView.swift in Sources */,
+				2787F3572083772100D41EE2 /* Strings.swift in Sources */,
+				2787F33D208374D900D41EE2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2787F316208370F200D41EE2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2787F317208370F200D41EE2 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		2787F318208370F200D41EE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2787F319208370F200D41EE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2787F31A208370F200D41EE2 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2787F31B208370F200D41EE2 /* en */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2787F2E620836FB300D41EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2787F2E720836FB300D41EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2787F2FF2083709F00D41EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F319462DA6C4EB718BFA6EE /* Pods-KTMosaicLayout iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "KTMosaicLayout iOS/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiki.KTMosaicLayout-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "KTMosaicLayout iOS/Resources/KTMosaicLayout iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2787F3002083709F00D41EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69724C10C5CF6699009089F /* Pods-KTMosaicLayout iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "KTMosaicLayout iOS/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiki.KTMosaicLayout-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "KTMosaicLayout iOS/Resources/KTMosaicLayout iOS-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2787F312208370BA00D41EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92B6005E317AD9F8C0E953D2 /* Pods-KTMosaicLayout tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "KTMosaicLayout tvOS/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiki.KTMosaicLayout-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "KTMosaicLayout tvOS/Resources/KTMosaicLayout tvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		2787F313208370BA00D41EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293FD9E02FAA6678702C37C2 /* Pods-KTMosaicLayout tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "KTMosaicLayout tvOS/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kiki.KTMosaicLayout-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "KTMosaicLayout tvOS/Resources/KTMosaicLayout tvOS-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2787F2D120836FB100D41EE2 /* Build configuration list for PBXProject "KTMosaicLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2787F2E620836FB300D41EE2 /* Debug */,
+				2787F2E720836FB300D41EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2787F2FE2083709F00D41EE2 /* Build configuration list for PBXNativeTarget "KTMosaicLayout iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2787F2FF2083709F00D41EE2 /* Debug */,
+				2787F3002083709F00D41EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2787F311208370BA00D41EE2 /* Build configuration list for PBXNativeTarget "KTMosaicLayout tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2787F312208370BA00D41EE2 /* Debug */,
+				2787F313208370BA00D41EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2787F2CE20836FB100D41EE2 /* Project object */;
+}

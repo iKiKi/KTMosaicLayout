@@ -1,0 +1,35 @@
+PODS:
+  - KTMosaicLayout (1.0.0)
+  - Reusable (4.0.2):
+    - Reusable/Storyboard (= 4.0.2)
+    - Reusable/View (= 4.0.2)
+  - Reusable/Storyboard (4.0.2)
+  - Reusable/View (4.0.2)
+  - SwiftGen (5.3.0)
+  - SwiftLint (0.25.1)
+
+DEPENDENCIES:
+  - KTMosaicLayout (from `../`)
+  - Reusable (~> 4.0.0)
+  - SwiftGen (~> 5.3.0)
+  - SwiftLint (~> 0.25.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Reusable
+    - SwiftGen
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  KTMosaicLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KTMosaicLayout: 080ed5c5c7181f83b8c45b32af5b8c83c284aab1
+  Reusable: 584a5629747c52e0f6a77841b400dc2643f6fa0f
+  SwiftGen: 4379bd3640b0a212a0f6ea3c494adba385513d10
+  SwiftLint: ce933681be10c3266e82576dad676fa815a602e9
+
+PODFILE CHECKSUM: 75a7f39673ca51e9c41edf64a1ef5abb63a54afe
+
+COCOAPODS: 1.5.0
